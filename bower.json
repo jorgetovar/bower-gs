@@ -1,0 +1,21 @@
+{
+  "name": "angular-my-directive",
+  "authors": [
+    "jorgetovar <jorgetovar621@gmail.com>"
+  ],
+  "description": "",
+  "main": "directive.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}
