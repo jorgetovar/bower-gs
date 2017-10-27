@@ -1,15 +1,11 @@
-(function() {
-	'use strict';
-
-	angular
-	.module('test');
-})();
+angular
+.module('bower.module');
 
 (function() {
     'use strict';
 
     angular
-        .module('test')
+        .module('bower.module')
         .service('Service', Service);
 
     Service.$inject = ['$log'];
@@ -21,7 +17,7 @@
         ////////////////
 
         function func() {
-        	console.log("bower gs-share components!");
+        	return "response from bower";
         }
     }
 })();
