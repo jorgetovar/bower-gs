@@ -1,5 +1,5 @@
 angular
-.module('bower.module');
+.module('bower.module', []);
 
 (function() {
     'use strict';
